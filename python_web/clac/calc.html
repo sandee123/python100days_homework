@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <script type="text/javascript" src='calc.js'></script>
+    <script type="text/javascript" src='js/mooc.js'></script>
+</head>
+<body onload="init()">
+    <!-- 
+        1个文本框
+        10个数字键
+        4个运算符
+        1个小数点
+        1个退位键
+        1个正负号
+        1个清屏键
+        1个等于号
+        ==》 20个按钮+1个文本框
+     -->
+     <div id="div1">
+         <div id="div2">
+             <!-- 用valve来做初始化value="0" ，也可以用js做初始化，推荐js -->
+             <!-- disabled文本框禁用输入disabled="disabled",也可以放到js里初始化 -->
+            <input type="text"  name="num" id="num"/>
+         </div>
+         <div id="div3">
+             <input type="button" value="C" name="" id=""/>
+             <input type="button" value="←" name="" id=""/>
+             <input type="button" value="+/-" name="" id=""/>
+             <input type="button" value="÷" name="" id=""/>
+             <input type="button" value="7" name="" id=""/>
+             <input type="button" value="8" name="" id=""/>
+             <input type="button" value="9" name="" id=""/>
+             <input type="button" value="×" name="" id=""/>
+             <input type="button" value="4" name="" id=""/>
+             <input type="button" value="5" name="" id=""/>             
+             <input type="button" value="6" name="" id=""/>
+             <input type="button" value="-" name="" id=""/>
+             <input type="button" value="1" name="" id=""/>
+             <input type="button" value="2" name="" id="" />
+             <input type="button" value="3" name="" id="" />             
+             <input type="button" value="+" name="" id=""/>
+             <input type="button" value="." name="" id=""/>
+             <input type="button" value="0" name="" id=""/>
+             <input type="button" value="=" name="" id="equal"/>
+             <input type="button" value="bing" name="" id="bing"/>
+         </div>
+     </div>
+</body>
+</html>
